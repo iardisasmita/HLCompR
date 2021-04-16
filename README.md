@@ -1,6 +1,8 @@
 # HLC_CompR
 A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models across studies.
 
+HLC_CompR web application can be performed with or without an addition of new samples. Additionally, HLC_CompR can also be performed locally.
+
 ## Addition of new samples
 In order to compare RNA-seq data between studies, the data should be processed uniformly. Please use the following guideline to process additional samples to be included in the comparison analysis.
 
