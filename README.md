@@ -24,30 +24,30 @@ Additionally, upload the reference genome and anotation that will be used for ma
 #### Mapping with RNA STAR tool
 Perform mapping of the FASTQ file(s) using the RNA STAR tool (Galaxy Version 2.7.2b). See figures below for the setting of RNA STAR tool.
 
--insert figures-
+![Figure_1](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig1.jpg)
 
 The mapping will take some time and after it is done, four files will be created for each sample.
 
--insert figure-
+![Figure_2](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig2.jpg)
 
 Download the read count file(s) by clicking the download button.
 
--insert figure-
+![Figure_3](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig3.jpg)
 
 ### CountData formatting
 Read counts obtained from RNA STAR tool will have one Ensembl gene ID column and three read count columns as shown below.
 
--insert figure-
+![Figure_4](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig4.jpg)
 
-Choose the correct column depending on the library preparation protocol and format them as shown below.
+Choose the correct column depending on the library preparation protocol (strandedness) and format them as shown below.
 
--insert figure-
+![Figure_5](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig5.jpg)
 
 This will be the CountData for the HLC_CompR web app.
 
 ### ColData formatting
 The ColData contains descriptions of the sample(s) in the CountData. The format of the ColData is shown below.
 
--insert figure-
+![Figure_6](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig6.jpg)
 
 ###   
