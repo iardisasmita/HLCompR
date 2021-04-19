@@ -1,7 +1,16 @@
 # HLC_CompR
-A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models across studies.
+A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models across studies. This pipeline involves read count normalization using DESeq2 variance-stabilizing transformation and quantile normalization.
 
-HLC_CompR web application can be performed with or without an addition of new samples. Additionally, HLC_CompR can also be performed locally.
+HLC_CompR can be performed with or without an addition of new samples. HLC_CompR can also be performed either through a [web application]() or locally.
+
+## Table of content
+
+- [Addition of new sample](#addition-of-new-samples)
+    - [Read mapping](#Read-mapping)
+    - [CountData formatting](#CountData-formatting)
+    - [ColData formatting](#ColData-formatting)
+- [Running HLC_CompR web app](#Running-HLC_CompR-web-app)
+- [Running HLC_CompR locally](#Running-HLC_CompR-locally)
 
 ## Addition of new samples
 In order to compare RNA-seq data between studies, the data should be processed uniformly. Please use the following guideline to process additional samples to be included in the comparison analysis.
@@ -16,8 +25,8 @@ Additionally, upload the reference genome and anotation that will be used for ma
 
 | Item | Description | Link |
 | --- | --- | ---|
-| Reference Genome | Gencode_human_release_33_GRCh38.p13.genome.fa.gz | [Download](ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.p13.genome.fa.gz) |
-| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz)
+| Reference Genome | Gencode_human_release_33_GRCh38.p13.genome.fa.gz | [Download](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.p13.genome.fa.gz) |
+| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz)
 
 **NOTE** : The top five rows of the annotation file need to be removed before it can be used in the RNA STAR tool.
 
@@ -50,4 +59,6 @@ The ColData contains descriptions of the sample(s) in the CountData. The format 
 
 ![Figure_6](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig6.jpg)
 
-###   
+## Running HLC_CompR web app 
+
+## Running HLC_CompR locally
