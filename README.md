@@ -18,6 +18,9 @@ In order to compare RNA-seq data between studies, the data should be processed u
 **NOTE**: It is recommended to take along PHH sample(s) to serve as a control for the presence of study-specific batch effects.
 
 ### Read mapping
+
+---
+
 #### Data upload to Galaxy
 After quality controls have been performed, upload the FASTQ file(s) to the [Galaxy web platform](https://usegalaxy.eu/). For tutorials on how to upload data to Galaxy, see [here](https://galaxyproject.org/support/loading-data/) or [here](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-rules/tutorial.html).
 
@@ -44,6 +47,9 @@ Download the read count file(s) by clicking the download button.
 ![Figure_3](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig3.jpg)
 
 ### CountData formatting
+
+---
+
 Read counts obtained from RNA STAR tool will have one Ensembl gene ID column and three read count columns as shown below.
 
 ![Figure_4](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig4.jpg)
@@ -55,6 +61,9 @@ Choose the correct column depending on the library preparation protocol (strande
 This will be the CountData for the HLC_CompR web app.
 
 ### ColData formatting
+
+---
+
 The ColData contains descriptions of the sample(s) in the CountData. The format of the ColData is shown below.
 
 ![Figure_6](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig6.jpg)
