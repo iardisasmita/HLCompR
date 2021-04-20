@@ -20,7 +20,7 @@ In order to compare RNA-seq data between studies, the data should be processed u
 #### Data upload to Galaxy
 After quality controls have been performed, upload the FASTQ file(s) to the [Galaxy web platform](https://usegalaxy.eu/). For tutorials on how to upload data to Galaxy, see [here](https://galaxyproject.org/support/loading-data/) or [here](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-rules/tutorial.html).
 
-Additionally, upload the reference genome and anotation that will be used for mapping. To ensure uniform processing, please use the files below:
+Additionally, upload the reference genome and annotation that will be used for mapping. To ensure uniform processing, please use the files below:
 
 | Item | Description | Link |
 | --- | --- | --- |
