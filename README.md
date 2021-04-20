@@ -30,7 +30,7 @@ Additionally, upload the reference genome and annotation that will be used for m
 **NOTE** : The top five rows of the annotation file need to be removed before it can be used in the RNA STAR tool.
 
 #### Mapping with RNA STAR tool
-Perform mapping of the FASTQ file(s) using the RNA STAR tool (Galaxy Version 2.7.2b). See figures below for the setting of RNA STAR tool.
+Perform mapping of the FASTQ file(s) using the RNA STAR tool (Galaxy Version 2.7.2b). See the figure below for the setting of RNA STAR tool.
 
 ![Figure_1](https://github.com/iardisasmita/HLC_CompR/blob/main/Images/fig1.jpg)
 
