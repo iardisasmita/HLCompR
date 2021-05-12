@@ -1,15 +1,23 @@
-# HLC_CompR
-A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models (HLC) across studies. This pipeline involves read count normalization using DESeq2 variance-stabilizing transformation and quantile normalization.
+# HLCompR
+A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models (HLC) across studies. This pipeline involves read count normalization using DESeq2 variance-stabilizing transformation and quantile normalization. Please see our publication for further detail.
 
-HLC_CompR can be performed with or without an addition of new samples. HLC_CompR can also be performed either through our [web application]() or locally.
+This page contains information on how to use the HLCompR and how to add new samples to the analysis. **To access our web application, please use the following link:** https://utrecht-university.shinyapps.io/HLCompR/
+
+HLCompR can be performed with or without addition of new samples. HLCompR can also be performed either through our [web application](https://utrecht-university.shinyapps.io/HLCompR/) or locally.
 
 ## Table of content
+- [Running HLCompR web application](#Running-HLCompR-web-application)
+- [Running HLCompR locally](#Running-HLCompR-locally)
 - [Addition of new sample](#addition-of-new-samples)
     - [Read mapping](#Read-mapping)
     - [CountData formatting](#CountData-formatting)
     - [ColData formatting](#ColData-formatting)
-- [Running HLC_CompR web app](#Running-HLC_CompR-web-app)
-- [Running HLC_CompR locally](#Running-HLC_CompR-locally)
+
+## Running HLCompR web application
+IN PROGRESS
+
+## Running HLCompR locally
+IN PROGRESS
 
 ## Addition of new samples
 In order to compare RNA-seq data between studies, the data should be processed uniformly. Please use the following guideline to process additional samples to be included in the comparison analysis.
@@ -25,9 +33,7 @@ Additionally, upload the reference genome and annotation that will be used for m
 | Item | Description | Link |
 | --- | --- | --- |
 | Reference Genome | Gencode_human_release_33_GRCh38.p13.genome.fa.gz | [Download](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.p13.genome.fa.gz) |
-| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz)
-
-**NOTE** : The top five rows of the annotation file need to be removed before it can be used in the RNA STAR tool.
+| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](https://github.com/iardisasmita/HLC_CompR/blob/main/gene_annotation/Gencode_human_release_33_gencode.v33.annotation.gtf.gz)
 
 #### Mapping with RNA STAR tool
 Perform mapping of the FASTQ file(s) using the RNA STAR tool (Galaxy Version 2.7.2b). See the figure below for the setting of RNA STAR tool.
@@ -81,7 +87,3 @@ The ColData contains descriptions of the sample(s) in the CountData. The format 
 | PHH | Primary human hepatocyte |
 | PSC | Pluripotent stem cell (embryonic and induced) |
 | PSC_HLC | Pluripotent stem cell-derived HLC |
-
-## Running HLC_CompR web app 
-
-## Running HLC_CompR locally
