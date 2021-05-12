@@ -33,7 +33,7 @@ Additionally, upload the reference genome and annotation that will be used for m
 | Item | Description | Link |
 | --- | --- | --- |
 | Reference Genome | Gencode_human_release_33_GRCh38.p13.genome.fa.gz | [Download](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.p13.genome.fa.gz) |
-| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](https://github.com/iardisasmita/HLC_CompR/blob/main/gene_annotation/Gencode_human_release_33_gencode.v33.annotation.gtf.gz)
+| Annotation | Gencode_human_release_33_gencode.v33.annotation.gtf.gz | [Download](https://github.com/iardisasmita/HLCompR/raw/main/gene_annotation/Gencode_human_release_33_gencode.v33.annotation.gtf.gz)
 
 #### Mapping with RNA STAR tool
 Perform mapping of the FASTQ file(s) using the RNA STAR tool (Galaxy Version 2.7.2b). See the figure below for the setting of RNA STAR tool.
