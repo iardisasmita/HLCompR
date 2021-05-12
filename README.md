@@ -1,28 +1,20 @@
 # HLCompR
 A computational pipeline to compare RNA sequencing (RNA-seq) data of hepatocyte *in vitro* models (HLC) across studies. This pipeline involves read count normalization using DESeq2 variance-stabilizing transformation and quantile normalization. Please see our publication for further detail.
 
-This page contains information on how to use the HLCompR and how to add new samples to the analysis. **To access our web application, please use the following link:** https://utrecht-university.shinyapps.io/HLCompR/
+This page contains information on how to add new samples to the analysis. 
 
-HLCompR can be performed with or without addition of new samples. HLCompR can also be performed either through our [web application](https://utrecht-university.shinyapps.io/HLCompR/) or locally.
+**To access our web application, please use the following link:** https://utrecht-university.shinyapps.io/HLCompR/
 
 ## Table of content
-- [Running HLCompR web application](#Running-HLCompR-web-application)
-- [Running HLCompR locally](#Running-HLCompR-locally)
 - [Addition of new sample](#addition-of-new-samples)
     - [Read mapping](#Read-mapping)
     - [CountData formatting](#CountData-formatting)
     - [ColData formatting](#ColData-formatting)
 
-## Running HLCompR web application
-IN PROGRESS
-
-## Running HLCompR locally
-IN PROGRESS
-
 ## Addition of new samples
 In order to compare RNA-seq data between studies, the data should be processed uniformly. Please use the following guideline to process additional samples to be included in the comparison analysis.
 
-**NOTE**: It is recommended to take along PHH sample(s) to serve as a control for the presence of study-specific batch effects.
+**NOTE**: It is highly recommended to take along PHH sample(s) to serve as a control for the presence of study-specific batch effects.
 
 ### Read mapping
 #### Data upload to Galaxy
